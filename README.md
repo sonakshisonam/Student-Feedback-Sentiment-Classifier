@@ -1,6 +1,4 @@
 # Student-Feedback-Sentiment-Classifier
-# 💬 Student Feedback Sentiment Classifier
-
 A simple Machine Learning project that predicts sentiment (Positive, Negative, Neutral) from student feedback text using Python and Streamlit.
 
 ---
@@ -57,8 +55,16 @@ So, I built a Machine Learning model that:
 
 ## 🚀 How to Run the Project
 
-### Step 1: Clone the repository
+Follow these steps to run the project on your system:
 
-```bash
-git clone <your-repo-link>
-cd <project-folder>
+### Step 1: Clone the Repository
+
+```
+git clone https://github.com/sonakshisonam/Student-Feedback-Sentiment-Classifier.git
+cd Student-Feedback-Sentiment-Classifier
+```
+Install Python then- 
+pip install -r requirements.txt
+
+Run Streamlit App 
+streamlit run app.py
