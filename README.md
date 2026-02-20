@@ -42,6 +42,17 @@ So, I built a Machine Learning model that:
 8. Deploy using Streamlit
 
 ---
+Student-Feedback-Sentiment-Classifier/
+```
+│
+├── app.py                  # Streamlit application
+├── model_training.ipynb    # Jupyter notebook for model training
+├── sentiment_model.pkl     # Trained ML model
+├── vectorizer.pkl          # Saved TF-IDF vectorizer
+├── requirements.txt        # Required libraries
+└── README.md               # Project documentation
+```
+---
 
 ## ✨ Features
 
@@ -66,5 +77,5 @@ cd Student-Feedback-Sentiment-Classifier
 Install Python then- 
 pip install -r requirements.txt
 
-Run Streamlit App 
+Run Streamlit App-  
 streamlit run app.py
